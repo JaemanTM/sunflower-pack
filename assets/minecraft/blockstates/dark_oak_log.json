@@ -1,0 +1,31 @@
+ {
+  "variants": {
+ 
+"axis=y":  [
+ {                    "model": "block/dark_oak_log", "weight": 4 },
+ { "model": "block/blockstates_random/dark_oak_log_1", "weight": 3 },
+ { "model": "block/blockstates_random/dark_oak_log_2", "weight": 3 },
+ { "model": "block/blockstates_random/dark_oak_log_3", "weight": 2 },
+ { "model": "block/blockstates_random/dark_oak_log_4", "weight": 2 }
+  ],
+ 
+ "axis=z":  [
+ {                    "model": "block/dark_oak_log", "x": 90,  "weight": 4 },
+ { "model": "block/blockstates_random/dark_oak_log_1", "x": 90, "weight": 3 },
+ { "model": "block/blockstates_random/dark_oak_log_2", "x": 90, "weight": 3 },
+ { "model": "block/blockstates_random/dark_oak_log_3", "x": 90, "weight": 2 },
+ { "model": "block/blockstates_random/dark_oak_log_4", "x": 90, "weight": 2 }
+  ],
+ 
+ "axis=x":  [
+ {                    "model": "block/dark_oak_log", "x": 90, "y": 90,  "weight": 4 },
+ { "model": "block/blockstates_random/dark_oak_log_1", "x": 90, "y": 90, "weight": 3 },
+ { "model": "block/blockstates_random/dark_oak_log_2", "x": 90, "y": 90, "weight": 3 },
+ { "model": "block/blockstates_random/dark_oak_log_3", "x": 90, "y": 90, "weight": 2 },
+ { "model": "block/blockstates_random/dark_oak_log_4", "x": 90, "y": 90, "weight": 2 }
+  ]
+ }
+
+ 
+}
+

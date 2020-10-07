@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/spruce_planks", "weight": 2 },
+            { "model": "block/blockstates_random/spruce_planks_1", "weight": 2 },
+            { "model": "block/blockstates_random/spruce_planks_2", "weight": 6 },
+            { "model": "block/blockstates_random/spruce_planks_3", "weight": 3 }
+        ]
+    }
+}

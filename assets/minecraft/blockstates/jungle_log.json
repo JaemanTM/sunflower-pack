@@ -1,0 +1,28 @@
+ {
+  "variants": {
+ 
+"axis=y":  [
+ {                    "model": "block/jungle_log", "weight": 4 },
+ { "model": "block/blockstates_random/jungle_log_1", "weight": 3 },
+ { "model": "block/blockstates_random/jungle_log_2", "weight": 3 },
+ { "model": "block/blockstates_random/jungle_log_3", "weight": 2 }
+  ],
+ 
+ "axis=z":  [
+ {                    "model": "block/jungle_log", "x": 90,  "weight": 4 },
+ { "model": "block/blockstates_random/jungle_log_1", "x": 90, "weight": 3 },
+ { "model": "block/blockstates_random/jungle_log_2", "x": 90, "weight": 3 },
+ { "model": "block/blockstates_random/jungle_log_3", "x": 90, "weight": 2 }
+  ],
+ 
+ "axis=x":  [
+ {                    "model": "block/jungle_log", "x": 90, "y": 90,  "weight": 4 },
+ { "model": "block/blockstates_random/jungle_log_1", "x": 90, "y": 90, "weight": 3 },
+ { "model": "block/blockstates_random/jungle_log_2", "x": 90, "y": 90, "weight": 3 },
+ { "model": "block/blockstates_random/jungle_log_3", "x": 90, "y": 90, "weight": 2 }
+  ]
+ }
+
+ 
+}
+

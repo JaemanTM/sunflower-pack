@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/orientable",
+	"textures": {
+		"top": "block/blast_furnace_top",
+		"front": "block/blast_furnace_front",
+		"side": "block/blast_furnace_side",
+		"bottom": "block/blast_furnace_bottom"
+	}
+}

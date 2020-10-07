@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "block/cartography_table" },
+        "facing=south": { "model": "block/cartography_table", "y": 180 },
+        "facing=west":  { "model": "block/cartography_table", "y": 270 },
+        "facing=east":  { "model": "block/cartography_table", "y": 90 }
+    }
+}

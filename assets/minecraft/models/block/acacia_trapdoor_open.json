@@ -1,0 +1,89 @@
+{
+    "parent": "block/thin_block",
+	"ambientocclusion": true,
+	"textures": {
+		"1": "block/acacia_trapdoor_sides",
+		"trapdoor": "block/acacia_trapdoor",
+		"particle": "block/acacia_trapdoor"
+	},
+	"elements": [
+		{
+			"name": "top",
+			"from": [0, 13, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 3], "texture": "#trapdoor"},
+				"east": {"uv": [13, 4, 16, 7], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#trapdoor"},
+				"west": {"uv": [0, 8, 3, 11], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 3], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "left bit",
+			"from": [0, 3, 13],
+			"to": [3, 13, 16],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 13], "rotation": 180, "texture": "#trapdoor"},
+				"east": {"uv": [1, 8, 15, 11], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [13, 3, 16, 13], "texture": "#trapdoor"},
+				"west": {"uv": [3, 8, 13, 11], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 5, 3], "rotation": 180, "texture": "#trapdoor"},
+				"down": {"uv": [0, 0, 5, 3], "texture": "#trapdoor"}
+			}
+		},
+		{
+			"name": "right bit",
+			"from": [13, 3, 13],
+			"to": [16, 13, 16],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 13], "rotation": 180, "texture": "#trapdoor"},
+				"east": {"uv": [3, 4, 13, 7], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [0, 3, 3, 13], "texture": "#trapdoor"},
+				"west": {"uv": [1, 4, 15, 7], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 5, 3], "rotation": 180, "texture": "#trapdoor"},
+				"down": {"uv": [0, 0, 5, 3], "texture": "#trapdoor"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [0, 0, 13],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [16, 13, 0, 16], "texture": "#trapdoor"},
+				"east": {"uv": [0, 4, 3, 7], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [0, 13, 16, 16], "texture": "#trapdoor"},
+				"west": {"uv": [13, 8, 16, 11], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 4, 16, 7], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 12, 16, 15], "texture": "#1"}
+			}
+		},
+		{
+			"name": "mid bit",
+			"from": [7, 3, 13.75],
+			"to": [9, 13, 15.25],
+			"faces": {
+				"north": {"uv": [7, 3, 9, 13], "rotation": 180, "texture": "#trapdoor"},
+				"east": {"uv": [8, 3, 9, 13], "rotation": 180, "texture": "#trapdoor"},
+				"south": {"uv": [7, 3, 9, 13], "rotation": 180, "texture": "#trapdoor"},
+				"west": {"uv": [8, 3, 9, 13], "rotation": 180, "texture": "#trapdoor"},
+				"up": {"uv": [0, 0, 2, 2], "rotation": 180, "texture": "#trapdoor"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#trapdoor"}
+			}
+		},
+		{
+			"name": "mid bit bits",
+			"from": [3, 7, 13.5],
+			"to": [13, 9, 15.5],
+			"faces": {
+				"north": {"uv": [3, 9, 13, 7], "rotation": 180, "texture": "#trapdoor"},
+				"east": {"uv": [0, 0, 2, 2], "rotation": 270, "texture": "#trapdoor"},
+				"south": {"uv": [3, 7, 13, 9], "rotation": 180, "texture": "#trapdoor"},
+				"west": {"uv": [0, 0, 2, 2], "rotation": 90, "texture": "#trapdoor"},
+				"up": {"uv": [3, 7, 13, 9], "rotation": 180, "texture": "#trapdoor"},
+				"down": {"uv": [3, 9, 13, 7], "texture": "#trapdoor"}
+			}
+		}
+	]
+}

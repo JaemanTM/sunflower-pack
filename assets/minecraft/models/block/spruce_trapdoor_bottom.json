@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/template_orientable_trapdoor_bottom",
+	"textures": {
+		"1": "block/spruce_trapdoor_sides",
+		"texture": "block/spruce_trapdoor",
+		"particle": "block/spruce_trapdoor_sides"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 4, 16, 7], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 8, 16, 11], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 12, 16, 15], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Metal",
+			"from": [-0.25, -0.25, 7],
+			"to": [16.25, 3.25, 9],
+			"faces": {
+				"north": {"uv": [0, 7, 16, 8], "texture": "#texture"},
+				"east": {"uv": [0, 7, 1, 9], "texture": "#texture"},
+				"south": {"uv": [0, 8, 16, 9], "texture": "#texture"},
+				"west": {"uv": [0, 7, 1, 9], "texture": "#texture"},
+				"up": {"uv": [0, 7, 16, 9], "texture": "#texture"},
+				"down": {"uv": [0, 7, 16, 9], "rotation": 180, "texture": "#texture"}
+			}
+		}
+	]
+}

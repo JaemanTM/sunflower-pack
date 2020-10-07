@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+            {                    "model": "block/oak_planks", "weight": 2 },
+            { "model": "block/blockstates_random/oak_planks_1", "weight": 2 },
+            { "model": "block/blockstates_random/oak_planks_2", "weight": 3 },
+            { "model": "block/blockstates_random/oak_planks_3", "weight": 3 },
+            { "model": "block/blockstates_random/oak_planks_4", "weight": 3 }
+        ]
+    }
+}
