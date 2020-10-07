@@ -5,3 +5,6 @@ This project aims to be an actually up to date version of Dandelion, with a bunc
 
 Original: https://www.planetminecraft.com/texture-pack/16x132-dandelion-cute-and-swirly/  
 Creator of Original: https://www.minecraftforum.net/members/Steelfeathers
+
+And a link to novaskin resource pack editor so I don't lose it later\
+https://minecraft.novaskin.me/resourcepacks
